@@ -603,16 +603,40 @@ h2{
 
     header .section .input_field{
         display: none;
-        flex-direction: column;
     }
 
-    header .section .input_field input{
-        width: 100%;
-        margin-bottom: 30px;
+    header .function .func_ a{
+        font-size: 16px;
+    }
+
+    header .login_reg_modal .advert{
+        font-size: 16px;
+    }
+
+    header .login_reg_modal .login{
+        font-size: 16px;
     }
 
     header .function .func_ .info{
         position: relative;
+    }
+
+    .input_info .block_where{
+        font-size: 16px;
+    }
+
+    .input_info .block_what{
+        font-size: 20px;
+    }
+
+    .input_info .variants a{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .input_info .variants div{
+        font-size: 10px;
+        text-align: center;
     }
 
     .container{
@@ -622,6 +646,10 @@ h2{
     .container .picture{
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .container .info .picture_info{
+        display: none;
     }
 }
 
@@ -633,11 +661,5 @@ h2{
     .input_info .variants{
         display: flex;
         flex-direction: column;
-    }
-}
-
-@media (max-width: 550px){
-    .container .info .picture_info{
-        display: none;
     }
 }
