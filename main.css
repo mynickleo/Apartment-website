@@ -586,7 +586,7 @@ h2{
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 900px){
     header .section{
         display: flex;
         flex-direction: column;
@@ -622,5 +622,22 @@ h2{
     .container .picture{
         width: 100%;
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    header .logo{
+        font-size: 48px;
+    }
+
+    .input_info .variants{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 550px){
+    .container .info .picture_info{
+        display: none;
     }
 }
