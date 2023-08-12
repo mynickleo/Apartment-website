@@ -585,3 +585,42 @@ h2{
         justify-content: center;
     }
 }
+
+@media (max-width: 768px){
+    header .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .section .function{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .section .input_field{
+        display: none;
+        flex-direction: column;
+    }
+
+    header .section .input_field input{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    header .function .func_ .info{
+        position: relative;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .container .picture{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
